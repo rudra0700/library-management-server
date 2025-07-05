@@ -8,7 +8,7 @@ export const app : Application = express();
 
 app.use(
   cors({
-    origin: ['https://library-management-client-nine.vercel.app']
+    origin: ['http://localhost:5173', 'https://library-management-client-nine.vercel.app']
    })
 );
 app.use(express.json());
